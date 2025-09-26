@@ -36,3 +36,16 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello SQL
+__vsc_prompt_cmd_original
+ls --color=auto
+info students.csv
+info -name students.csv
+students.csv
+start students.csv
+cat students.csv
+clear
+eog students.csv
+ls --color=auto
+xdg-open students.csv
+open students.csv
+psql --username=freecodecamp --dbname=postgres
