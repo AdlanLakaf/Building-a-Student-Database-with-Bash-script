@@ -113,3 +113,11 @@ ls --color=auto /courses_test.csv
 ls --color=auto courses_test.csv
 clear
 cp courses.csv courses_test.csv
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
