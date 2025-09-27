@@ -97,3 +97,4 @@ declare -p IFS
 declare -p IFS=","
 IFS=","
 __vsc_prompt_cmd_original
+./insert_data.sh
