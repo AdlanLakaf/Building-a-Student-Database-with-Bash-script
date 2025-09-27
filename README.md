@@ -1,0 +1,1 @@
+# Building-a-Student-Database-with-Bash-script initgit add README.mdgit commit -m first commitgit branch -M maingit remote add origin https://github.com/AdlanLakaf/Building-a-Student-Database-with-Bash-script.gitgit push -u origin mainecho # Building-a-Student-Database-with-Bash-script
