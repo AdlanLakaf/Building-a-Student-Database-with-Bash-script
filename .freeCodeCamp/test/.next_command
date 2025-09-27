@@ -105,3 +105,11 @@ clear
 ls --color=auto
 mkdir courses_test.csv
 cp courses.csv courses_test.csv
+ls --color=auto
+cd courses_test.csv
+cd ..
+rmdir courses_test.csv
+ls --color=auto /courses_test.csv
+ls --color=auto courses_test.csv
+clear
+cp courses.csv courses_test.csv
