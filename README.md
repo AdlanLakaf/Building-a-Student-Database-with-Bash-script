@@ -1,44 +1,46 @@
-Student Database - freeCodeCamp Project
+# 🎓 Student Database - freeCodeCamp Project
+
+![Bash](https://img.shields.io/badge/bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![freeCodeCamp](https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white)
+
 A bash script project that creates and populates a PostgreSQL student database with data from CSV files.
-Description
+
+## 📝 Description
+
 This project builds a relational database for student information using PostgreSQL and bash scripting. It reads data from CSV files and populates tables for majors, courses, students, and their relationships.
-Database Structure
 
-majors - Academic majors
-courses - Available courses
-students - Student information
-majors_courses - Relationship between majors and courses
+## 🗄️ Database Structure
 
-Files
+| Table | Description |
+|-------|-------------|
+| `majors` | Academic majors |
+| `courses` | Available courses |
+| `students` | Student information |
+| `majors_courses` | Relationship between majors and courses |
 
-insert_data.sh - Main bash script to populate database
-courses.csv - Course and major data
-students.csv - Student enrollment data
-students.sql - Database backup/dump file
+## 📁 Files
 
-Requirements
+| File | Purpose |
+|------|---------|
+| `insert_data.sh` | Main bash script to populate database |
+| `courses.csv` | Course and major data |
+| `students.csv` | Student enrollment data |
+| `courses_test.csv` | Test data for development |
+| `students.sql` | Database backup/dump file |
 
-PostgreSQL
-Bash shell
-CSV data files
+## ⚙️ Requirements
 
-Usage
+- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12%2B-blue) 
+- ![Bash](https://img.shields.io/badge/Bash-4.0%2B-green)
+- CSV data files
 
-Set up PostgreSQL database named 'students'
-Make script executable:
+## 🚀 Usage
 
-bash   chmod +x insert_data.sh
+<details>
+<summary>💡 Quick Start Guide</summary>
 
-Run the script:
-
-bash   ./insert_data.sh
-Features
-
-Automatically creates database relationships
-Handles duplicate data prevention
-Processes CSV files with proper parsing
-Provides feedback during data insertion
-
-freeCodeCamp
-This project is part of the freeCodeCamp Relational Database curriculum, focusing on bash scripting and PostgreSQL database management.
-
+1. **Set up PostgreSQL database named 'students'**
+2. **Make script executable:**
+```bash
+   chmod +x insert_data.sh
