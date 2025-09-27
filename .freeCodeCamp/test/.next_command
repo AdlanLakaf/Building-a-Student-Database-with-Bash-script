@@ -137,3 +137,4 @@ cp students.csv students_test.csv
 ./insert_data.sh
 LS
 ls --color=auto
+rm students_test.csv
